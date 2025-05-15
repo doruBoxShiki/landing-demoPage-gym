@@ -204,3 +204,22 @@ a:focus {
     padding: 16px 20px;
   }
 }
+
+
+button,
+.cta-button,
+#loadMap {
+  background-color: #0050b3; /* 濃いブルーに変更 */
+  color: #ffffff; /* 白文字でコントラスト最大 */
+}
+
+button:hover,
+.cta-button:hover,
+#loadMap:hover {
+  background-color: #003d99;
+}
+
+.qa-item h3 {
+  color: #1a1a1a; /* より濃い見出し色に修正 */
+  font-weight: bold;
+}
