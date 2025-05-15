@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(section);
   });
 
-  // FAQ開閉アニメ
+  // FAQ開閉アニメーション
   document.querySelectorAll(".qa-item h3").forEach(header => {
     header.addEventListener("click", function () {
       const item = this.parentElement;
